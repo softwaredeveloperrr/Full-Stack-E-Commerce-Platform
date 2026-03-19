@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;database=ecommerce;user=root;password=yourpassword"
+  },
+  "Jwt": {
+    "Key": "YourSuperSecretKey12345",
+    "Issuer": "ECommerceAPI",
+    "Audience": "ECommerceClient"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
