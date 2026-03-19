@@ -23,6 +23,25 @@ Practical features: Product catalog, cart, checkout, admin dashboard
 
 Modern practices: REST APIs, Angular services, structured project layout
 
+Project Structure:
+
+ECommerceBackend/
+├── Controllers/
+│   ├── AuthController.cs
+│   ├── ProductsController.cs
+│   ├── OrdersController.cs
+├── Models/
+│   ├── User.cs
+│   ├── Product.cs
+│   ├── CartItem.cs
+│   ├── Order.cs
+├── Data/
+│   └── AppDbContext.cs
+├── Services/
+│   └── JwtService.cs
+├── Program.cs
+├── appsettings.json
+
 More features to Add:
 1. More Frontend Features
 
